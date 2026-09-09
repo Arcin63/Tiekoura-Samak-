@@ -1,0 +1,27 @@
+{
+  "name": "tiekoura-samake-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Baileys de Tiekoura Samake",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "whatsapp-bot"
+  ],
+  "author": "Tiekoura Samake",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.0.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
